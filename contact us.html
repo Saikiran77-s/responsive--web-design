@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+  <title>mobile responsive html page</title>
+  <link rel="stylesheet"type="text/css"href="styles1.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+    <body>
+<section class="sub-header">
+    <nav>
+       <img src="images/logo12.png">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="A%20bout.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact%20us.html">CONTACT US</a></li>
+            </ul>
+        </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>contact us</h1>
+</section>
+        <section class="location">
+        
+        </section>
+        
+        <section class="contact us">
+           <div class="row"> 
+               <div class ="contact-col">
+                   <div>
+                       <i class="fa fa-home"></i>
+                       <span>
+                           <h5>ABCD Road,EF Building</h5>
+                           <p>hyderabad,telangana</p>
+                       </span>
+                   </div>
+                   
+                         <div>
+                       <i class="fa fa-phone"></i>
+                       <span>
+                           <h5>cell no:123456789</h5>
+                           <p>monday to saturday,10am to 8pm</p>
+                       </span>
+                   </div> 
+                   
+                      <div>
+                       <i class="fa fa-envelope-o"></i>
+                       <span>
+                           <h5>EMAIL:sncck2344@gmail.com</h5>
+                           <p>for any problem email</p>
+                       </span> 
+                   </div>      
+               </div>
+            </div>
+            
+            <div class="contact-col">
+                <form action="">
+                   <input type ="text" name="NAME" placeholder="Enter Your Name" required>
+                   <input type ="email" name="Email" placeholder="Enter Your Email" required>
+                    <textarea rows="5" name="subject" placeholder="Enter Your subject" required></textarea>
+                    <textarea rows="6" name="Message" placeholder="Enter Your message" required></textarea>
+                    <br>
+                    <button type="submit" class="hero-btn">send message</button>
+                </form>
+            </div>
+        </section>
+        
+       <section class="footer">
+            <h2>A bout us</h2>
+            <p>use positive and effective word statements --some words are phrases directly put the person into a defensive position are build a:negative imageuse positive and effective word statements --some words are phrases directly put the person into a defensive position are build a:negative image</p>
+            
+           
+                  <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>made with<i class="fa fa-star"></i> saikiran regunta</p>
+            
+        </section>
+        
+        
+        
+        <script>
+             var navLinks = document.getElementById("navLinks");
+            
+             function showMenu(){
+                 navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                 navLinks.style.right = "-180px";
+             }
+        </script>
+                 
+        
+        
+    </body>        
+</html>
